@@ -180,11 +180,10 @@ export default function IndexPage() {
 
                     {connectOpen && (
                         <div className="absolute top-16 left-1/2 -translate-x-1/2 flex gap-4 bg-background border p-4 rounded-2xl shadow-xl animate-in fade-in slide-in-from-top-4">
-                            <SocialLink icon={<Instagram className="h-5 w-5" />} href="#" label="Instagram" />
-                            <SocialLink icon={<Linkedin className="h-5 w-5" />} href="#" label="LinkedIn" />
-                            <SocialLink icon={<Twitter className="h-5 w-5" />} href="#" label="X" />
+                            <SocialLink icon={<Instagram className="h-5 w-5" />} href="https://instagram.com/rizzabh.unitie" label="Instagram" />
+                            <SocialLink icon={<Linkedin className="h-5 w-5" />} href="https://www.linkedin.com/in/rizzzabh/" label="LinkedIn" />
+                            <SocialLink icon={<Twitter className="h-5 w-5" />} href="https://x.com/Rizzabh_X" label="X" />
                             <SocialLink icon={<Mail className="h-5 w-5" />} href="mailto:contact@rishabhrajsingh.com" label="Email" />
-                            <SocialLink icon={<Github className="h-5 w-5" />} href="#" label="GitHub" />
                         </div>
                     )}
                 </div>
