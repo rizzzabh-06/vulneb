@@ -1,0 +1,5 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/submit/page": "app/dashboard/submit/page.js",
+  "/(marketing)/page": "app/(marketing)/page.js"
+}
