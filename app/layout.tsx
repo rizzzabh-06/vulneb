@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-    title: "CodeForge Portfolio",
-    description: "Developer portfolio and hackathon submission platform.",
+    title: "Rishabh Raj Singh | Developer & Security Researcher",
+    description: "Professional portfolio and security research showcase.",
 };
 
 export default function RootLayout({

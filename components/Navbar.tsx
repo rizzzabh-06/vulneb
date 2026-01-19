@@ -7,26 +7,20 @@ export function Navbar() {
             <div className="container flex h-14 max-w-screen-2xl items-center">
                 <Link className="mr-6 flex items-center space-x-2" href="/">
                     <Terminal className="h-6 w-6" />
-                    <span className="hidden font-bold sm:inline-block">CodeForge</span>
+                    <span className="hidden font-bold sm:inline-block">Rishabh.dev</span>
                 </Link>
                 <nav className="flex items-center space-x-6 text-sm font-medium">
                     <Link
-                        href="/dashboard"
-                        className="transition-colors hover:text-foreground/80 text-foreground/60"
-                    >
-                        Dashboard
-                    </Link>
-                    <Link
-                        href="/dashboard/projects"
+                        href="/#projects"
                         className="transition-colors hover:text-foreground/80 text-foreground/60"
                     >
                         Projects
                     </Link>
                     <Link
                         href="/dashboard/submit"
-                        className="transition-colors hover:text-foreground/80 text-foreground/60"
+                        className="transition-colors hover:text-red-500 text-foreground/60 flex items-center gap-1"
                     >
-                        Submit Hackathon
+                        <Terminal className="h-4 w-4" /> Contact
                     </Link>
                 </nav>
                 <div className="ml-auto flex items-center space-x-4">
